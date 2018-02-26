@@ -871,6 +871,91 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		/* Color Palette */
+		&.primary {
+			background-color: $primary;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $primary !important;
+			}
+		}
+
+		&.success {
+			background-color: $success;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $success !important;
+			}
+		}
+
+		&.info {
+			background-color: $info;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $info !important;
+			}
+		}
+
+		&.warning {
+			background-color: $warning;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $warning !important;
+			}
+		}
+
+		&.gray-lighter {
+			background-color: $gray-lighter;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray-lighter !important;
+			}
+		}
+
+		&.gray-light {
+			background-color: $gray-light;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray-light !important;
+			}
+		}
+
+		&.gray {
+			background-color: $gray;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray !important;
+			}
+		}
+
+		&.gray-dark {
+			background-color: $gray-dark;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray-dark !important;
+			}
+		}
+
+		&.gray-darker {
+			background-color: $gray-darker;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray-darker !important;
+			}
+		}
+
+
+		/* End of Color Palette */
+
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');
