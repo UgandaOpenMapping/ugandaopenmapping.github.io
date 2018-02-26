@@ -1,0 +1,139 @@
+///
+///	Spectral by HTML5 UP
+///	html5up.net | @n33co
+///	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+$gray-darker:     #313639; //Onyx
+$gray-dark:       #595d5d; //
+$gray:            #838583; //
+$gray-light:      #b1b1ab; //
+$gray-lighter:    #e0dfd5; //Gainsboro
+
+$primary:         #f06453; //Tomato
+$success:         #19535f;
+$info:            #627264; //Granite Gray
+$warning:         #f09d51; //Sandy Brown
+$danger:          $primary;
+
+
+
+// Misc.
+	$misc: (
+		max-spotlights:		10,
+		max-features:		10,
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		transitions:		0.2s,
+		menu:				0.5s,
+		fadein:				3s
+	);
+
+// Size.
+	$size: (
+		element-height:		2.75em,
+		element-margin:		2em,
+		letter-spacing:		0.075em,
+		letter-spacing-alt:	0.225em
+	);
+
+// Font.
+	$font: (
+		family:				('Oxygen', sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				400,
+		weight-bold:		700,
+		weight-extrabold:	700
+	);
+
+// Palette.
+	$palette: (
+		bg:					$gray-darker, // #2a363b //#2e3842, // Dark Blue
+		fg:					#fff,
+		fg-bold:			#fff,
+		fg-light:			rgba(255,255,255,0.5),
+		border:				#fff,
+		border-bg:			rgba(144,144,144,0.25),
+		border2:			#fff,
+		border2-bg:			rgba(144,144,144,0.5),
+
+		accent1: (
+			bg:				$primary, // #21b2a6, // Teal
+			fg-bold:		#ffffff,
+			fg:				mix($primary, #ffffff, 25%),
+			fg-light:		mix($primary, #ffffff, 40%),
+			border:			rgba(0,0,0,0.125),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent2: (
+			bg:				$success, // #00ffcc, // Mint
+			fg-bold:		#ffffff,
+			fg:				mix($success, #ffffff, 25%),
+			fg-light:		mix($success, #ffffff, 40%),
+			border:			rgba(0,0,0,0.125),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent3: (
+			bg:				$warning, // #00f0ff, // Aqua Blue
+			fg-bold:		#ffffff,
+			fg:				mix($warning, #ffffff, 25%),
+			fg-light:		mix($warning, #ffffff, 40%),
+			border:			rgba(0,0,0,0.125),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent4: (
+			bg:				#fecea8, // #76ddff, // Light Blue
+			fg-bold:		#ffffff,
+			fg:				mix(#76ddff, #ffffff, 25%),
+			fg-light:		mix(#76ddff, #ffffff, 40%),
+			border:			rgba(0,0,0,0.125),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent5: (
+			bg:				$info, // Purple
+			fg-bold:		#ffffff,
+			fg:				mix($info, #ffffff, 25%),
+			fg-light:		mix($info, #ffffff, 40%),
+			border:			rgba(0,0,0,0.125),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent6: (
+			bg:				$primary, // Red
+			fg-bold:		#ffffff,
+			fg:				mix($primary, #ffffff, 25%),
+			fg-light:		mix($primary, #ffffff, 40%),
+			border:			rgba(0,0,0,0.125),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(0,0,0,0.25),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent7: (
+			bg:				#ffffff, // White
+			fg-bold:		#2E3842, // Dark Blue
+			fg:				#4E4852, // Dark Purple
+			fg-light:		#8E8892, // Gray Purple
+			border:			#dfdfdf, // Very Light Gray
+			border-bg:		rgba(0,0,0,0.0375),
+			border2:		#bfbfbf, // Light Gray
+			border2-bg:		rgba(0,0,0,0.1)
+		)
+	);
