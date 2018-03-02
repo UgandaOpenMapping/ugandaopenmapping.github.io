@@ -9,6 +9,8 @@ $baseurl: '{{ site.baseurl }}/images';
 @import 'libs/mixins';
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 
 /*
 	Spectral by HTML5 UP
@@ -953,6 +955,87 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		/* Color Palette2 */
+		&.primary2 {
+			background-color: $primary2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $primary2 !important;
+			}
+		}
+
+		&.success2 {
+			background-color: $success2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $success2 !important;
+			}
+		}
+
+		&.info2 {
+			background-color: $info2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $info2 !important;
+			}
+		}
+
+		&.warning2 {
+			background-color: $warning2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $warning2 !important;
+			}
+		}
+
+		&.gray-lighter2 {
+			background-color: $gray-lighter2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray-lighter2 !important;
+			}
+		}
+
+		&.gray-light2 {
+			background-color: $gray-light2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray-light2 !important;
+			}
+		}
+
+		&.gray2 {
+			background-color: $gray2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray2 !important;
+			}
+		}
+
+		&.gray-dark2 {
+			background-color: $gray-dark2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray-dark2 !important;
+			}
+		}
+
+		&.gray-darker2 {
+			background-color: $gray-darker2;
+			box-shadow: none !important;
+			color: white !important;
+			&:hover {
+				background-color: $gray-darker2 !important;
+			}
+		}
 
 		/* End of Color Palette */
 
