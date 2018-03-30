@@ -586,6 +586,17 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		&.logos {
+			cursor: default;
+			list-style: none;
+			li {
+				display: inline-block;
+				img {
+					width: 50%;
+				}
+			}
+		}
+
 		&.icons {
 			cursor: default;
 			list-style: none;
@@ -604,7 +615,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				padding: 1em 0;
 
 				li {
-					padding-right: 3.5em;
+					padding-right: 1.5em;
 
 					@include breakpoint(small) {
 						padding: 0 1em !important;
