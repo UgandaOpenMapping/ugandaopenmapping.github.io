@@ -9,8 +9,6 @@ $baseurl: '{{ site.baseurl }}/images';
 @import 'libs/mixins';
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
-@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 
 /*
 	Spectral by HTML5 UP
@@ -75,12 +73,13 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	a {
 		@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
-		border-bottom: dotted 1px;
+		border-bottom: 4px solid $primary;
 		color: inherit;
+		font-weight: bold;
 		text-decoration: none;
 
 		&:hover {
-			border-bottom-color: transparent;
+			color: $primary;
 		}
 	}
 
