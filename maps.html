@@ -2,9 +2,30 @@
 layout: page
 title: Mapping Status
 ---
-			<section>
-				<h4>Mapping Status</h4>
+			<section id="osm-analytics">
+				<h2>Ggaba, Kampala</h2>
 				<p>Interactive maps to illustrate the overall mapped area, with statistics of mapping activity (e.g. km of mapped roads, number of buildings, etc).</p>
-				<iframe src="https://osm-analytics-ui.vizzuality.com/#/compare/polygon:gx%60fEgrt%40a%5Bng%40o%5E~XlCvBqCjMeP~OcYzj%40iPfm%40ki%40zKqUqG~EygFjbCuHf%5DhBxXxI/2015...now/buildings/embed/opendri" scrolling="no" width="100%" height="600" >
+        <h4>Showing dates <span id="dates"></span></h4>
+				<iframe src="https://osm-analytics-ui.vizzuality.com/#/compare/polygon:gx%60fEgrt%40a%5Bng%40o%5E~XlCvBqCjMeP~OcYzj%40iPfm%40ki%40zKqUqG~EygFjbCuHf%5DhBxXxI/2016...now/buildings/embed/opendri" scrolling="no" width="100%" height="800" >
 				</iframe>
+
+				<div class="project-box">
+          <dl>
+            <dt>Daily activity in the area</dt>
+            <dd id="activity">
+              <div style="background-color: #f0f0f0;height: 320px;margin: 1rem 0;width: 100%;background-image: url(/images/loading_2x_360.gif);background-repeat: no-repeat;background-position: center;background-size: 35px;"></div>
+            </dd>
+          </dl>
+        </div>
+
+        <div id="overallStats"></div>
+				<hr>
+        <h2>Inline statistics</h2>
+        <p>In a given range, <span id="buildingsUsers"></span> users made <span id="buildingsActivity"></span> contributions</p>
+        <div id="contributors"></div>
 			</section>
+
+			<script type="text/javascript" src="/js/bundle.js"></script>
+		  <script src="/js/env.sample.js" charset="utf-8"></script>
+		  <script src="/js/env.js" charset="utf-8"></script>
+		  <script src="/js/app.js" charset="utf-8"></script>
